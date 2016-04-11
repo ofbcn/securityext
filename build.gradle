@@ -1,0 +1,18 @@
+dependencies {
+	compile vendor('noerp:base:1.0.0')
+	compile vendor('noerp:entity:1.0.0')
+	compile vendor('noerp:entityext:1.0.0')
+    compile vendor('noerp:security:1.0.0')
+    compile vendor('noerp:service:1.0.0')
+    compile vendor('noerp:minilang:1.0.0')
+    compile vendor('noerp:webapp:1.0.0')
+    compile vendor('noerp:testtools:1.0.0')
+	compile vendor('noerp:common:1.0.0')
+	
+	compile vendor('ofbizcn:party:1.0.0')
+}
+
+sourceSets.main.java {
+	srcDirs = ["src/main/java"]
+	exclude "com/ofbizcn/securityext/thirdparty/truition/*.java"
+}

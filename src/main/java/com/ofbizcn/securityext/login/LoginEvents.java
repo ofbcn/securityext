@@ -57,7 +57,7 @@ public class LoginEvents {
 
     public static final String module = LoginEvents.class.getName();
     public static final String resource = "SecurityextUiLabels";
-    public static final String usernameCookieName = "OFBiz.Username";
+    public static final String usernameCookieName = "NOErp.Username";
 
     /**
      * Save USERNAME and PASSWORD for use by auth pages even if we start in non-auth pages.
